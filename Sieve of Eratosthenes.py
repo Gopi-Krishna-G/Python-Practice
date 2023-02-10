@@ -25,9 +25,9 @@ def sieve_of_eratosthenes(n):
 
     # Print all prime numbers
     print(numbers)
-    for num in range(2, n+1):  
+    for num in range(2, n+1):
         if numbers[num]:
-            print(num)
+            print(num, end=" ")
 
 
 # Driver code
